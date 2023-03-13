@@ -2,6 +2,21 @@ const { Client, Authenticator } = require('minecraft-launcher-core');
 const launcher = new Client();
 
 
+const { shell } = require('electron');
+const links = document.querySelectorAll('a');
+
+links.forEach(link => {
+  link.addEventListener('click', (event) => {
+    event.preventDefault();
+    const href = link.getAttribute('href');
+    if (href.startsWith('http://') || href.startsWith('https://')) {
+      shell.openExternal(href);
+    }
+  });
+});
+
+
+
 /*const fs = require('fs');
 
 // Obtener el elemento del select

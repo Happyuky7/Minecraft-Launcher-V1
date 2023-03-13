@@ -1,5 +1,5 @@
 {
-  "name": "minecraftlauncherv1-node",
+  "name": "minecraftlauncherv1",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
@@ -8,10 +8,11 @@
     "start": "electron ."
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "HappyRogelio7",
+  "license": "Custom",
   "dependencies": {
     "electron": "^23.1.2",
+    "electron-packager": "^17.1.1",
     "minecraft-launcher-core": "^3.16.18"
   }
 }
