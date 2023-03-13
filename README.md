@@ -1,3 +1,5 @@
+⚠️`This project is for educational use, testing or for people who can't afford the game at the moment. Buy the game on` [Minecraft.net](https://www.minecraft.net/) `for a better experience.`
+
 # Minecraft-Launcher-V1
 Minecraft-Launcher-V1 Cracked players
 
