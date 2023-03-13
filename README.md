@@ -1,16 +1,18 @@
 # Minecraft-Launcher-V1
 Minecraft-Launcher-V1 Cracked players
 
-Version: 1.0.0
+Version: 1.0.2
 
 Dependencys:
 
 - https://github.com/Pierce01/MinecraftLauncher-core
 - electron
 
+Compile .exe win using: https://jrsoftware.org/isdl.php
+
 ---
 
-## How To (Using)
+## How To (Using DEV)
 
 To using; 
 
@@ -28,8 +30,7 @@ $ cd Minecraft-Launcher-V1
 Now inside the directory you execute the following maven command:
 
 ```bash
-$ npm install electron
-$ npm install minecraft-launcher-core
+$ npm install -y
 ```
 
 Then you will find the start
