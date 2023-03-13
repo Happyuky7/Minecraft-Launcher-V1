@@ -3,6 +3,29 @@ Minecraft-Launcher-V1 Cracked players
 
 Version: 1.0.2
 
+---
+
+## Install: (V.1.0.2)
+
+Download in [Releases](https://github.com/HappyRogelio7/Minecraft-Launcher-V1/releases/tag/1.0.2)
+
+Required Java
+- Recommended in windows: https://www.azul.com/
+
+Install in Windows:
+- Download `Minecraft_Launcher_V1_Setup-V.1.0.2.exe`
+- Execute archive and install
+
+Install in Linux:
+- Download `Minecraft-linux-x64.zip`
+- Unzip the file.
+- Execute Minecraft archive
+
+Install in Mac: Coming Soon...
+
+
+---
+
 Dependencys:
 
 - https://github.com/Pierce01/MinecraftLauncher-core
