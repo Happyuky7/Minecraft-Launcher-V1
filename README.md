@@ -3,6 +3,8 @@ Minecraft-Launcher-V1 Cracked players
 
 Version: 1.0.2
 
+Support Minecraft Version 1.8.9, 1.12.2, 1.16.5, 1.17.1, 1.18.2, 1.19, 1.19.1, 1.19.2, 1.19.3.
+
 ⚠️`This project is for educational use, testing or for people who can't afford the game at the moment. Buy the game on` [Minecraft.net](https://www.minecraft.net/) `for a better experience.`
 
 ---
@@ -11,14 +13,20 @@ Version: 1.0.2
 
 Download in [Releases](https://github.com/HappyRogelio7/Minecraft-Launcher-V1/releases/tag/1.0.2)
 
-Required Java
+Recommended:
+- 1.8.9, 1.12.2 using java 8
+- 1.16.5 using java 11 or 16
+- 1.17.1 using java 17
+- 1.18.2, 1.19.X java 17 or 18
+
+Required Java:
 - Recommended in windows: https://www.azul.com/
 
-Install in Windows:
+Install in Windows: 
 - Download `Minecraft_Launcher_V1_Setup-V.1.0.2.exe`
 - Execute archive and install
 
-Install in Linux:
+Install in Linux: (No Testing Found)
 - Download `Minecraft-linux-x64.zip`
 - Unzip the file.
 - Execute Minecraft archive
