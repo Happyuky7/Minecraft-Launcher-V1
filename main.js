@@ -7,13 +7,17 @@ function createWindow () {
   const win = new BrowserWindow({
     width: 1000,
     height: 600,
+    
     webPreferences: {
       // Permitir la integración de Node.js
       nodeIntegration: true,
       // Permitir la carga de recursos locales
       contextIsolation: false,
-      enableRemoteModule: true//,
+      enableRemoteModule: true,
       //preload: path.join(__dirname, 'preload.js')
+      /**Raw ignores this property!*/
+      resizable: true,
+      suppress: false
     }
   })
 

@@ -11,7 +11,7 @@
   <div class="container-info">
     <div class="info">
       <h4>Launcher Info:</h4>
-      <p>Version: 1.0.2</p>
+      <p>Version: 1.0.3</p>
       <p>Author: HappyRogelio7</p>
     </div>
   </div>
@@ -33,52 +33,111 @@
 
     <h1>Minecraft Launcher</h1>
 
-    <div class="form-group">
+    <!--div class="form-group">
       <label for="username">Username:</label>
       <input type="text" id="username" placeholder="Enter your username">
+    </div-->
+
+    <button id="loginBtn">Microsoft Account</button>
+    <button id="crackedBtn">Cracked</button>
+
+    <div id="loginOption" style="display:none;">
+      <!-- Opción de inicio de sesión con Microsoft Account -->
+      <h4>Cuando Inicies el Juego te pedira el Login.</h4>
+    </div>
+
+    <div id="crackedOption" style="display:none;">
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Enter your username">
+      </div>
     </div>
 
     <div class="form-group">
       <label for="version">Version:</label>
       <select id="version">
-        <option value="1.18.1">1.19.3</option>
+
+        <!-- Lasted Versions -->
+        <option value="23w12a">Ultima Snapshot</option>
+        <option value="1.19.4">Ultima Version</option>
+
+        <!-- Snapshots Versions -->
+        <option value="1.19.4-pre3">23w12a (Snapshot)</option>
+
+        <!-- Default Versions -->
+        <!-- 1.19 -->
+        <option value="1.19.4">1.19.4</option>
+        <option value="1.19.3">1.19.3</option>
+        <option value="1.19.3">1.19.2</option>
+        <option value="1.19.3">1.19.1</option>
+        <option value="1.19.3">1.19</option>
+        <!-- 1.18 -->
         <option value="1.18.2">1.18.2</option>
+        <option value="1.18.1">1.18.1</option>
+        <option value="1.18">1.18</option>
+        <!-- 1.17 -->
         <option value="1.17.1">1.17.1</option>
+        <option value="1.17">1.17</option>
+        <!-- 1.16 -->
         <option value="1.16.5">1.16.5</option>
+        <!--option value="1.16.4">1.16.4</option>
+        <option value="1.16.3">1.16.3</option>
+        <option value="1.16.2">1.16.2</option>
+        <option value="1.16.1">1.16.1</option>
+        <option value="1.16">1.16</option-->
+        <!-- 1.12 -->
         <option value="1.12.2">1.12.2</option>
+        <option value="1.12.1">1.12.1</option>
+        <option value="1.12">1.12</option>
+        <!-- 1.11 >
+        <option value="1.11.2">1.11.2</option>
+        <option value="1.11.1">1.11.1</option>
+        <option value="1.11">1.11</option>
+        <-- 1.10 ->
+        <option value="1.10.2">1.10.2</option>
+        <option value="1.10.1">1.10.1</option>
+        <option value="1.10">1.10</option>
+        <-- 1.9 ->
+        <option value="1.9.4">1.9.4</option>
+        <option value="1.9.3">1.9.3</option>
+        <option value="1.9.3">1.9.2</option>
+        <option value="1.9.1">1.9.1</option>
+        <option value="1.9">1.9</option-->
+        <!-- 1.8 -->
         <option value="1.8.9">1.8.9</option>
+
       </select>
     </div>
 
     <div class="form-group">
       <label for="ram_min">RAM MIN: (Default: 1G)</label>
       <select id="ram_min">
-        <option value="1">1024 | 1G</option>
-        <option value="2">2048 | 2G</option>
-        <option value="3">3072 | 3G</option>
-        <option value="4">4096 | 4G</option>
-        <option value="5">5120 | 5G</option>
-        <option value="6">6144 | 6G</option>
-        <option value="7">7168 | 7G</option>
-        <option value="8">8192 | 8G</option>
-        <option value="9">9216 | 9G</option>
-        <option value="10">10240 | 10G</option>
+        <option value="1024" selected>1024 | 1G</option>
+        <option value="2048">2048 | 2G</option>
+        <option value="3072">3072 | 3G</option>
+        <option value="4096">4096 | 4G</option>
+        <option value="5120">5120 | 5G</option>
+        <option value="6144">6144 | 6G</option>
+        <option value="7168">7168 | 7G</option>
+        <option value="8192">8192 | 8G</option>
+        <option value="9216">9216 | 9G</option>
+        <option value="10240">10240 | 10G</option>
       </select>
     </div>
 
     <div class="form-group">
       <label for="ram_max">RAM MAX: (Default: 3G)</label>
       <select id="ram_max">
-        <option value="1">1024 | 1G</option>
-        <option value="2">2048 | 2G</option>
-        <option value="3">3072 | 3G</option>
-        <option value="4">4096 | 4G</option>
-        <option value="5">5120 | 5G</option>
-        <option value="6">6144 | 6G</option>
-        <option value="7">7168 | 7G</option>
-        <option value="8">8192 | 8G</option>
-        <option value="9">9216 | 9G</option>
-        <option value="10">10240 | 10G</option>
+        <option value="1024">1024 | 1G</option>
+        <option value="2048">2048 | 2G</option>
+        <option value="3072" selected>3072 | 3G</option>
+        <option value="4096">4096 | 4G</option>
+        <option value="5120">5120 | 5G</option>
+        <option value="6144">6144 | 6G</option>
+        <option value="7168">7168 | 7G</option>
+        <option value="8192">8192 | 8G</option>
+        <option value="9216">9216 | 9G</option>
+        <option value="10240">10240 | 10G</option>
       </select>
     </div>
 

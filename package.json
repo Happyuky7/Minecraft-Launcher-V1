@@ -13,6 +13,7 @@
   "dependencies": {
     "electron": "^23.1.2",
     "electron-packager": "^17.1.1",
-    "minecraft-launcher-core": "^3.16.18"
+    "minecraft-launcher-core": "^3.16.18",
+    "msmc": "^4.0.3"
   }
 }
