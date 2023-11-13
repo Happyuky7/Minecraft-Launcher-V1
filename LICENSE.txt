@@ -1,0 +1,14 @@
+License Custom by HappyRogelio7.
+
+License is a Custom for https://github.com/HappyRogelio7/Minecraft-Launcher-V1 repository proyect, 
+
+- Its use is free but you must leave credits. 
+- This license can be updated at any time through the current repository.
+- You are allowed to use the project for your own launcher, as long as you leave credits to the original author or that your launcher is a fork of it.
+- If you have any doubt or question please contact me through the repository or any social network like discord.
+
+Author: HappyRogelio7
+Github: https://github.com/HappyRogelio7/
+Twitter: https://twitter.com/HappyRogelio7
+
+Copyright (c) 2017 - 2023 - All rights reserved

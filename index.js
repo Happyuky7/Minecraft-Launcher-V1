@@ -75,7 +75,7 @@ playBtn.addEventListener('click', () => {
 
     // Snapshot Versions
     const snapshotVersions = [
-        '23w12a'
+        '1.20-pre5'
     ];
 
     // Version Selected
