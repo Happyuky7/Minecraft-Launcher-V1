@@ -1,6 +1,9 @@
 # Minecraft-Launcher-V1
 Minecraft-Launcher-V1 Cracked players
 
+## I am working on a new version or new launcher, please be patient if you have any questions via discord. 
+## [Discord](https://discord.gg/3EebYUyeUX)
+
 Version: 1.0.2
 
 Support Minecraft Version 1.8.9, 1.12.2, 1.16.5, 1.17.1, 1.18.2, 1.19, 1.19.1, 1.19.2, 1.19.3, 1.20.1, 1.20.2. (All Supported Versions)
