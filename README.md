@@ -14,7 +14,7 @@ Support Minecraft Version 1.8.9, 1.12.2, 1.16.5, 1.17.1, 1.18.2, 1.19, 1.19.1, 1
 
 ## Install: (V.1.0.3)
 
-Download in [Releases](https://github.com/HappyRogelio7/Minecraft-Launcher-V1/releases/tag/1.0.3)
+Download in [Releases](https://github.com/Happyuky7/Minecraft-Launcher-V1/releases/tag/1.0.3)
 
 Recommended:
 - 1.8.9, 1.12.2 using java 8
@@ -55,7 +55,7 @@ To using;
 
 Clone the repository with the following command:
 ```bash
-$ git clone https://github.com/HappyRogelio7/Minecraft-Launcher-V1.git
+$ git clone https://github.com/Happyuky7/Minecraft-Launcher-V1.git
 ```
 
 Once downloaded in the git terminal use the following command:
